@@ -1,0 +1,189 @@
+15:50:23.438: Platform: Wayland
+15:50:23.438: CPU Name: AMD Ryzen 3 3250U with Radeon Graphics
+15:50:23.438: CPU Speed: 2329.836MHz
+15:50:23.439: Physical Cores: 2, Logical Cores: 4
+15:50:23.439: Physical Memory: 5879MB Total, 3928MB Free
+15:50:23.439: Kernel Version: Linux 6.1.7-arch1-1
+15:50:23.439: Distribution: "Arch Linux" Unknown
+15:50:23.439: Session Type: wayland
+15:50:23.442: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+15:50:23.442: Portable mode: false
+15:50:23.711: OBS 29.0.0-1 (linux)
+15:50:23.711: ---------------------------------
+15:50:23.712: ---------------------------------
+15:50:23.712: audio settings reset:
+15:50:23.712: 	samples per sec: 48000
+15:50:23.712: 	speakers:        2
+15:50:23.712: 	max buffering:   960 milliseconds
+15:50:23.712: 	buffering type:  dynamically increasing
+15:50:23.715: ---------------------------------
+15:50:23.715: Initializing OpenGL...
+15:50:23.715: Using EGL/Wayland
+15:50:23.765: Initialized EGL 1.5
+15:50:23.794: Loading up OpenGL on adapter AMD AMD Radeon Vega 3 Graphics (raven2, LLVM 15.0.7, DRM 3.49, 6.1.7-arch1-1)
+15:50:23.794: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.3.3, shading language 4.60
+15:50:23.850: ---------------------------------
+15:50:23.850: video settings reset:
+15:50:23.850: 	base resolution:   1920x1080
+15:50:23.850: 	output resolution: 1920x1080
+15:50:23.850: 	downscale filter:  Bicubic
+15:50:23.850: 	fps:               60/1
+15:50:23.850: 	format:            NV12
+15:50:23.850: 	YUV mode:          Rec. 709/Partial
+15:50:23.850: NV12 texture support not available
+15:50:23.850: P010 texture support not available
+15:50:23.857: Audio monitoring device:
+15:50:23.857: 	name: Default
+15:50:23.857: 	id: default
+15:50:23.857: ---------------------------------
+15:50:23.867: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:50:23.876: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:50:23.884: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:50:23.884: Failed to initialize module 'decklink.so'
+15:50:23.891: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+15:50:23.891: 
+15:50:23.893: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+15:50:23.893: 
+15:50:23.894: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+15:50:23.936: [pipewire] Available captures:
+15:50:23.936: [pipewire]     - Desktop capture
+15:50:23.959: v4l2loopback not installed, virtual camera disabled
+15:50:23.991: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+15:50:23.991: FFmpeg VAAPI H264 encoding not supported
+15:50:24.084: ---------------------------------
+15:50:24.084:   Loaded Modules:
+15:50:24.084:     libwlrobs.so
+15:50:24.084:     text-freetype2.so
+15:50:24.084:     rtmp-services.so
+15:50:24.084:     obs-x264.so
+15:50:24.084:     obs-vst.so
+15:50:24.084:     obs-transitions.so
+15:50:24.084:     obs-outputs.so
+15:50:24.084:     obs-libfdk.so
+15:50:24.084:     obs-filters.so
+15:50:24.084:     obs-ffmpeg.so
+15:50:24.084:     linux-v4l2.so
+15:50:24.084:     linux-pulseaudio.so
+15:50:24.084:     linux-pipewire.so
+15:50:24.084:     linux-jack.so
+15:50:24.084:     linux-capture.so
+15:50:24.084:     linux-alsa.so
+15:50:24.084:     image-source.so
+15:50:24.084:     decklink-output-ui.so
+15:50:24.084:     decklink-captions.so
+15:50:24.084: ---------------------------------
+15:50:24.085: ==== Startup complete ===============================================
+15:50:24.117: All scene data cleared
+15:50:24.118: ------------------------------------------------
+15:50:24.129: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.64) 15.0.0'
+15:50:24.129: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:50:24.129: pulse-input: Started recording from 'alsa_output.pci-0000_03_00.6.analog-stereo.monitor' (default)
+15:50:24.129: [Loaded global audio device]: 'Desktop Audio'
+15:50:24.129: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.64) 15.0.0'
+15:50:24.130: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:50:24.130: pulse-input: Started recording from 'alsa_input.pci-0000_03_00.6.analog-stereo' (default)
+15:50:24.130: [Loaded global audio device]: 'Mic/Aux'
+15:50:24.133: Switched to scene 'Scene'
+15:50:24.133: ------------------------------------------------
+15:50:24.133: Loaded scenes:
+15:50:24.133: - scene 'Scene':
+15:50:24.133:     - source: 'Wayland output(dmabuf)' (wlrobs-dmabuf)
+15:50:24.133: ------------------------------------------------
+15:50:24.695: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+15:50:24.695: 
+15:50:52.193: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Desktop Audio)
+15:50:52.193: 
+15:52:29.365: Settings changed (outputs)
+15:52:29.365: ------------------------------------------------
+15:52:33.659: Settings changed (outputs)
+15:52:33.659: ------------------------------------------------
+15:52:57.295: ---------------------------------
+15:52:57.295: [x264 encoder: 'advanced_video_stream'] preset: placebo
+15:52:57.295: [x264 encoder: 'advanced_video_stream'] profile: main
+15:52:57.296: [x264 encoder: 'advanced_video_stream'] settings:
+15:52:57.296: 	rate_control: VBR
+15:52:57.296: 	bitrate:      2500
+15:52:57.296: 	buffer size:  2500
+15:52:57.296: 	crf:          23
+15:52:57.296: 	fps_num:      60
+15:52:57.296: 	fps_den:      1
+15:52:57.296: 	width:        1920
+15:52:57.296: 	height:       1080
+15:52:57.296: 	keyint:       250
+15:52:57.296: 
+15:52:57.309: libfdk_aac encoder created
+15:52:57.309: libfdk_aac bitrate: 160, channels: 2
+15:52:57.316: ==== Recording Start ===============================================
+15:52:57.316: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/k/Videos/2023-01-22 15-52-57.mp4'...
+15:52:57.320: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+15:53:50.882: Settings changed (outputs)
+15:53:50.882: ------------------------------------------------
+15:54:24.911: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/k/Videos/2023-01-22 15-52-57.mp4' stopped
+15:54:24.911: Output 'adv_file_output': stopping
+15:54:24.911: Output 'adv_file_output': Total frames output: 385
+15:54:24.911: Output 'adv_file_output': Total drawn frames: 5172 (5255 attempted)
+15:54:24.911: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 83 (1.6%)
+15:54:24.912: ==== Recording Stop ================================================
+15:54:25.183: Video stopped, number of skipped frames due to encoding lag: 391/482 (81.1%)
+15:54:26.715: libfdk_aac encoder destroyed
+15:54:40.790: 1 views remain at shutdown
+15:54:40.791: ---------------------------------
+15:54:40.791: video settings reset:
+15:54:40.791: 	base resolution:   1920x1080
+15:54:40.791: 	output resolution: 1440x810
+15:54:40.791: 	downscale filter:  Bicubic
+15:54:40.791: 	fps:               60/1
+15:54:40.791: 	format:            NV12
+15:54:40.791: 	YUV mode:          Rec. 709/Partial
+15:54:40.791: NV12 texture support not available
+15:54:40.792: P010 texture support not available
+15:54:40.793: Settings changed (video)
+15:54:40.793: ------------------------------------------------
+15:55:30.832: ---------------------------------
+15:55:30.832: [x264 encoder: 'advanced_video_stream'] preset: placebo
+15:55:30.832: [x264 encoder: 'advanced_video_stream'] profile: main
+15:55:30.832: [x264 encoder: 'advanced_video_stream'] settings:
+15:55:30.832: 	rate_control: VBR
+15:55:30.832: 	bitrate:      1000
+15:55:30.832: 	buffer size:  1000
+15:55:30.832: 	crf:          23
+15:55:30.832: 	fps_num:      60
+15:55:30.832: 	fps_den:      1
+15:55:30.832: 	width:        1440
+15:55:30.832: 	height:       810
+15:55:30.832: 	keyint:       250
+15:55:30.832: 
+15:55:30.846: libfdk_aac encoder created
+15:55:30.846: libfdk_aac bitrate: 160, channels: 2
+15:55:30.857: ==== Recording Start ===============================================
+15:55:30.858: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/k/Videos/2023-01-22 15-55-30.mp4'...
+15:55:30.861: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+15:55:44.764: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/k/Videos/2023-01-22 15-55-30.mp4' stopped
+15:55:44.764: Output 'adv_file_output': stopping
+15:55:44.764: Output 'adv_file_output': Total frames output: 96
+15:55:44.764: Output 'adv_file_output': Total drawn frames: 825 (835 attempted)
+15:55:44.764: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 10 (1.2%)
+15:55:44.765: ==== Recording Stop ================================================
+15:55:45.545: Video stopped, number of skipped frames due to encoding lag: 99/189 (52.4%)
+15:55:46.964: libfdk_aac encoder destroyed
+15:56:11.377: ---------------------------------
+15:56:11.377: [x264 encoder: 'advanced_video_stream'] preset: placebo
+15:56:11.377: [x264 encoder: 'advanced_video_stream'] profile: main
+15:56:11.377: [x264 encoder: 'advanced_video_stream'] settings:
+15:56:11.377: 	rate_control: VBR
+15:56:11.377: 	bitrate:      1000
+15:56:11.377: 	buffer size:  1000
+15:56:11.377: 	crf:          23
+15:56:11.377: 	fps_num:      60
+15:56:11.377: 	fps_den:      1
+15:56:11.377: 	width:        1440
+15:56:11.377: 	height:       810
+15:56:11.377: 	keyint:       250
+15:56:11.377: 
+15:56:11.380: libfdk_aac encoder created
+15:56:11.380: libfdk_aac bitrate: 160, channels: 2
+15:56:11.407: ==== Recording Start ===============================================
+15:56:11.407: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/k/Videos/2023-01-22 15-56-11.mp4'...
+15:56:11.411: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+15:56:51.724: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:56:51.724: A sprite cannot be drawn without a width/height

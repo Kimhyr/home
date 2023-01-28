@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/k/Downloads/macOS-Monterey-White.tar.gz" added="2023-01-22T13:57:01.035696Z" modified="2023-01-22T13:57:01.035701Z" visited="2023-01-22T13:57:01.035697Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-22T13:57:01.035698Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Videos/2023-01-22%2015-46-50.mp4" added="2023-01-22T20:49:12.297275Z" modified="2023-01-22T20:49:12.297278Z" visited="2023-01-22T20:49:12.297276Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2023-01-22T20:49:12.297277Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Videos/2023-01-22%2016-03-29.mp4" added="2023-01-22T21:05:14.485617Z" modified="2023-01-22T21:05:14.485624Z" visited="2023-01-22T21:05:14.485618Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2023-01-22T21:05:14.485621Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/vlc-record-2023-01-22-16h06m17s-2023-01-22%2016-03-29.mp4-.mp4" added="2023-01-22T21:07:19.092078Z" modified="2023-01-22T21:07:19.092082Z" visited="2023-01-22T21:07:19.092079Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2023-01-22T21:07:19.092080Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/vlc-record-2023-01-22-16h06m08s-2023-01-22%2016-03-29.mp4-.mp4" added="2023-01-22T21:07:28.477647Z" modified="2023-01-22T21:07:28.477651Z" visited="2023-01-22T21:07:28.477648Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2023-01-22T21:07:28.477649Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Videos/2023-01-22%2016-10-07.mp4" added="2023-01-22T21:16:28.938353Z" modified="2023-01-22T21:16:28.938360Z" visited="2023-01-22T21:16:28.938355Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="discord" exec="&apos;discord %u&apos;" modified="2023-01-22T21:16:28.938357Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Downloads/ArrayList_Exam_Question_-_Reviews.pdf" added="2023-01-22T22:30:50.313177Z" modified="2023-01-22T22:30:50.313193Z" visited="2023-01-22T22:30:50.313178Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-22T22:30:50.313183Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Downloads/ArrayList_Exam_Question_-_Reviews-1.pdf" added="2023-01-22T22:30:55.230131Z" modified="2023-01-22T22:30:55.230142Z" visited="2023-01-22T22:30:55.230133Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-22T22:30:55.230137Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Downloads/ArrayList_Exam_Question_-_Reviews-2.pdf" added="2023-01-22T22:31:21.250750Z" modified="2023-01-22T22:31:21.250757Z" visited="2023-01-22T22:31:21.250751Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-22T22:31:21.250753Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Downloads/ArrayList_Exam_Question_-_Reviews-3.pdf" added="2023-01-22T23:30:24.731538Z" modified="2023-01-22T23:30:24.731559Z" visited="2023-01-22T23:30:24.731542Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-22T23:30:24.731546Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Downloads/2.%20Kaleidoscope%20Implementing%20a%20Parser%20and%20AST%20%E2%80%94%20LLVM%2016.0.0git%20documentation.html" added="2023-01-23T11:01:36.656420Z" modified="2023-01-23T11:01:36.980616Z" visited="2023-01-23T11:01:36.656422Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2023-01-23T11:01:36.980612Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Projects/F%23" added="2023-01-24T23:25:32.655672Z" modified="2023-01-24T23:25:32.655676Z" visited="2023-01-24T23:25:32.655673Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2023-01-24T23:25:32.655674Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/k/Projects/klang" added="2023-01-26T23:11:24.330467Z" modified="2023-01-26T23:11:24.330472Z" visited="2023-01-26T23:11:24.330468Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2023-01-26T23:11:24.330469Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

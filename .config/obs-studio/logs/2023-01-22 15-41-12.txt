@@ -1,0 +1,1069 @@
+15:41:12.669: Platform: Wayland
+15:41:12.670: CPU Name: AMD Ryzen 3 3250U with Radeon Graphics
+15:41:12.670: CPU Speed: 2328.061MHz
+15:41:12.670: Physical Cores: 2, Logical Cores: 4
+15:41:12.670: Physical Memory: 5879MB Total, 2279MB Free
+15:41:12.670: Kernel Version: Linux 6.1.7-arch1-1
+15:41:12.670: Distribution: "Arch Linux" Unknown
+15:41:12.670: Session Type: wayland
+15:41:12.672: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+15:41:12.672: Portable mode: false
+15:41:12.912: OBS 29.0.0-1 (linux)
+15:41:12.912: ---------------------------------
+15:41:12.912: ---------------------------------
+15:41:12.912: audio settings reset:
+15:41:12.912: 	samples per sec: 48000
+15:41:12.912: 	speakers:        2
+15:41:12.912: 	max buffering:   960 milliseconds
+15:41:12.912: 	buffering type:  dynamically increasing
+15:41:12.914: ---------------------------------
+15:41:12.914: Initializing OpenGL...
+15:41:12.914: Using EGL/Wayland
+15:41:12.957: Initialized EGL 1.5
+15:41:12.979: Loading up OpenGL on adapter AMD AMD Radeon Vega 3 Graphics (raven2, LLVM 15.0.7, DRM 3.49, 6.1.7-arch1-1)
+15:41:12.979: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.3.3, shading language 4.60
+15:41:13.009: ---------------------------------
+15:41:13.009: video settings reset:
+15:41:13.009: 	base resolution:   1920x1080
+15:41:13.009: 	output resolution: 1280x720
+15:41:13.009: 	downscale filter:  Bicubic
+15:41:13.009: 	fps:               30/1
+15:41:13.009: 	format:            NV12
+15:41:13.009: 	YUV mode:          Rec. 709/Partial
+15:41:13.009: NV12 texture support not available
+15:41:13.009: P010 texture support not available
+15:41:13.014: Audio monitoring device:
+15:41:13.014: 	name: Default
+15:41:13.014: 	id: default
+15:41:13.014: ---------------------------------
+15:41:13.024: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:41:13.033: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:41:13.041: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:41:13.041: Failed to initialize module 'decklink.so'
+15:41:13.045: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+15:41:13.045: 
+15:41:13.054: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+15:41:13.054: 
+15:41:13.054: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+15:41:13.100: [pipewire] Available captures:
+15:41:13.100: [pipewire]     - Desktop capture
+15:41:13.127: v4l2loopback not installed, virtual camera disabled
+15:41:13.149: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+15:41:13.149: FFmpeg VAAPI H264 encoding not supported
+15:41:13.235: ---------------------------------
+15:41:13.235:   Loaded Modules:
+15:41:13.235:     libwlrobs.so
+15:41:13.235:     text-freetype2.so
+15:41:13.235:     rtmp-services.so
+15:41:13.235:     obs-x264.so
+15:41:13.235:     obs-vst.so
+15:41:13.235:     obs-transitions.so
+15:41:13.235:     obs-outputs.so
+15:41:13.235:     obs-libfdk.so
+15:41:13.235:     obs-filters.so
+15:41:13.235:     obs-ffmpeg.so
+15:41:13.235:     linux-v4l2.so
+15:41:13.235:     linux-pulseaudio.so
+15:41:13.235:     linux-pipewire.so
+15:41:13.235:     linux-jack.so
+15:41:13.235:     linux-capture.so
+15:41:13.235:     linux-alsa.so
+15:41:13.235:     image-source.so
+15:41:13.235:     decklink-output-ui.so
+15:41:13.235:     decklink-captions.so
+15:41:13.235: ---------------------------------
+15:41:13.235: ==== Startup complete ===============================================
+15:41:13.297: All scene data cleared
+15:41:13.297: ------------------------------------------------
+15:41:13.306: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.64) 15.0.0'
+15:41:13.307: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:41:13.307: pulse-input: Started recording from 'alsa_output.pci-0000_03_00.6.analog-stereo.monitor' (default)
+15:41:13.307: [Loaded global audio device]: 'Desktop Audio'
+15:41:13.307: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.64) 15.0.0'
+15:41:13.308: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:41:13.308: pulse-input: Started recording from 'alsa_input.pci-0000_03_00.6.analog-stereo' (default)
+15:41:13.308: [Loaded global audio device]: 'Mic/Aux'
+15:41:13.309: PipeWire initialized
+15:41:13.310: Switched to scene 'Scene'
+15:41:13.310: ------------------------------------------------
+15:41:13.310: Loaded scenes:
+15:41:13.310: - scene 'Scene':
+15:41:13.310:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+15:41:13.310:     - source: 'Wayland output(dmabuf)' (wlrobs-dmabuf)
+15:41:13.310: ------------------------------------------------
+15:41:13.397: [pipewire] Screencast session created
+15:41:13.895: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+15:41:13.895: 
+15:41:15.604: [pipewire] Asking for desktop
+15:41:15.606: [pipewire] desktop selected, setting up screencast
+15:41:15.612: [pipewire] Server version: 0.3.64
+15:41:15.612: [pipewire] Library version: 0.3.64
+15:41:15.612: [pipewire] Header version: 0.3.63
+15:41:15.612: [pipewire] Created stream 0x55fb313a75d0
+15:41:15.612: [pipewire] Stream 0x55fb313a75d0 state: "connecting" (error: none)
+15:41:15.612: [pipewire] Playing stream 0x55fb313a75d0
+15:41:15.613: [pipewire] Stream 0x55fb313a75d0 state: "paused" (error: none)
+15:41:15.615: [pipewire] Negotiated format:
+15:41:15.615: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+15:41:15.615: [pipewire]     Modifier: 0
+15:41:15.615: [pipewire]     Size: 1920x1080
+15:41:15.615: [pipewire]     Framerate: 0/1
+15:41:15.616: [pipewire] Negotiated format:
+15:41:15.616: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+15:41:15.616: [pipewire]     Modifier: 144115197793122817
+15:41:15.616: [pipewire]     Size: 1920x1080
+15:41:15.616: [pipewire]     Framerate: 0/1
+15:41:15.617: [pipewire] Stream 0x55fb313a75d0 state: "streaming" (error: none)
+15:41:15.628: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.628: [pipewire] Renegotiating stream
+15:41:15.644: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.644: [pipewire] Renegotiating stream
+15:41:15.661: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.661: [pipewire] Renegotiating stream
+15:41:15.677: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.677: [pipewire] Renegotiating stream
+15:41:15.694: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.694: [pipewire] Renegotiating stream
+15:41:15.710: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.710: [pipewire] Renegotiating stream
+15:41:15.727: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.728: [pipewire] Renegotiating stream
+15:41:15.744: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.744: [pipewire] Renegotiating stream
+15:41:15.761: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.761: [pipewire] Renegotiating stream
+15:41:15.777: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.777: [pipewire] Renegotiating stream
+15:41:15.795: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.795: [pipewire] Renegotiating stream
+15:41:15.810: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.810: [pipewire] Renegotiating stream
+15:41:15.828: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.828: [pipewire] Renegotiating stream
+15:41:15.844: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.844: [pipewire] Renegotiating stream
+15:41:15.861: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.861: [pipewire] Renegotiating stream
+15:41:15.877: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.877: [pipewire] Renegotiating stream
+15:41:15.894: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.895: [pipewire] Renegotiating stream
+15:41:15.911: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.911: [pipewire] Renegotiating stream
+15:41:15.928: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.928: [pipewire] Renegotiating stream
+15:41:15.944: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.944: [pipewire] Renegotiating stream
+15:41:15.961: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.961: [pipewire] Renegotiating stream
+15:41:15.977: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.977: [pipewire] Renegotiating stream
+15:41:15.994: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:15.994: [pipewire] Renegotiating stream
+15:41:16.010: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.010: [pipewire] Renegotiating stream
+15:41:16.027: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.027: [pipewire] Renegotiating stream
+15:41:16.044: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.044: [pipewire] Renegotiating stream
+15:41:16.061: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.061: [pipewire] Renegotiating stream
+15:41:16.077: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.077: [pipewire] Renegotiating stream
+15:41:16.094: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.094: [pipewire] Renegotiating stream
+15:41:16.110: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.110: [pipewire] Renegotiating stream
+15:41:16.127: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.127: [pipewire] Renegotiating stream
+15:41:16.143: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.144: [pipewire] Renegotiating stream
+15:41:16.161: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.161: [pipewire] Renegotiating stream
+15:41:16.177: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.177: [pipewire] Renegotiating stream
+15:41:16.194: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.194: [pipewire] Renegotiating stream
+15:41:16.210: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.210: [pipewire] Renegotiating stream
+15:41:16.228: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.228: [pipewire] Renegotiating stream
+15:41:16.243: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.244: [pipewire] Renegotiating stream
+15:41:16.261: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.261: [pipewire] Renegotiating stream
+15:41:16.277: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.277: [pipewire] Renegotiating stream
+15:41:16.294: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.294: [pipewire] Renegotiating stream
+15:41:16.310: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.310: [pipewire] Renegotiating stream
+15:41:16.327: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.327: [pipewire] Renegotiating stream
+15:41:16.343: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.343: [pipewire] Renegotiating stream
+15:41:16.361: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.361: [pipewire] Renegotiating stream
+15:41:16.377: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.377: [pipewire] Renegotiating stream
+15:41:16.394: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.394: [pipewire] Renegotiating stream
+15:41:16.410: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.410: [pipewire] Renegotiating stream
+15:41:16.427: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.427: [pipewire] Renegotiating stream
+15:41:16.443: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.443: [pipewire] Renegotiating stream
+15:41:16.461: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.461: [pipewire] Renegotiating stream
+15:41:16.477: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.477: [pipewire] Renegotiating stream
+15:41:16.494: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.494: [pipewire] Renegotiating stream
+15:41:16.510: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.510: [pipewire] Renegotiating stream
+15:41:16.527: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.527: [pipewire] Renegotiating stream
+15:41:16.543: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.543: [pipewire] Renegotiating stream
+15:41:16.560: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.561: [pipewire] Renegotiating stream
+15:41:16.577: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.577: [pipewire] Renegotiating stream
+15:41:16.594: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.594: [pipewire] Renegotiating stream
+15:41:16.610: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.610: [pipewire] Renegotiating stream
+15:41:16.627: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.627: [pipewire] Renegotiating stream
+15:41:16.644: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.644: [pipewire] Renegotiating stream
+15:41:16.662: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.662: [pipewire] Renegotiating stream
+15:41:16.677: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.677: [pipewire] Renegotiating stream
+15:41:16.694: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.694: [pipewire] Renegotiating stream
+15:41:16.710: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.710: [pipewire] Renegotiating stream
+15:41:16.727: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.727: [pipewire] Renegotiating stream
+15:41:16.744: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.744: [pipewire] Renegotiating stream
+15:41:16.760: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.760: [pipewire] Renegotiating stream
+15:41:16.777: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.777: [pipewire] Renegotiating stream
+15:41:16.794: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.794: [pipewire] Renegotiating stream
+15:41:16.810: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.810: [pipewire] Renegotiating stream
+15:41:16.827: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.827: [pipewire] Renegotiating stream
+15:41:16.843: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.843: [pipewire] Renegotiating stream
+15:41:16.861: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.861: [pipewire] Renegotiating stream
+15:41:16.876: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.877: [pipewire] Renegotiating stream
+15:41:16.894: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.894: [pipewire] Renegotiating stream
+15:41:16.910: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.910: [pipewire] Renegotiating stream
+15:41:16.927: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.927: [pipewire] Renegotiating stream
+15:41:16.943: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.943: [pipewire] Renegotiating stream
+15:41:16.960: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.960: [pipewire] Renegotiating stream
+15:41:16.976: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.976: [pipewire] Renegotiating stream
+15:41:16.994: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:16.994: [pipewire] Renegotiating stream
+15:41:17.010: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.010: [pipewire] Renegotiating stream
+15:41:17.027: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.027: [pipewire] Renegotiating stream
+15:41:17.043: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.043: [pipewire] Renegotiating stream
+15:41:17.061: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.061: [pipewire] Renegotiating stream
+15:41:17.077: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.077: [pipewire] Renegotiating stream
+15:41:17.094: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.094: [pipewire] Renegotiating stream
+15:41:17.110: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.110: [pipewire] Renegotiating stream
+15:41:17.127: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.127: [pipewire] Renegotiating stream
+15:41:17.143: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.143: [pipewire] Renegotiating stream
+15:41:17.161: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.161: [pipewire] Renegotiating stream
+15:41:17.177: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.177: [pipewire] Renegotiating stream
+15:41:17.194: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.194: [pipewire] Renegotiating stream
+15:41:17.210: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.210: [pipewire] Renegotiating stream
+15:41:17.227: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.227: [pipewire] Renegotiating stream
+15:41:17.243: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.243: [pipewire] Renegotiating stream
+15:41:17.277: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.277: [pipewire] Renegotiating stream
+15:41:17.294: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.294: [pipewire] Renegotiating stream
+15:41:17.310: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.310: [pipewire] Renegotiating stream
+15:41:17.327: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.327: [pipewire] Renegotiating stream
+15:41:17.343: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.343: [pipewire] Renegotiating stream
+15:41:17.361: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.361: [pipewire] Renegotiating stream
+15:41:17.377: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.377: [pipewire] Renegotiating stream
+15:41:17.394: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.394: [pipewire] Renegotiating stream
+15:41:17.410: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.410: [pipewire] Renegotiating stream
+15:41:17.427: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.427: [pipewire] Renegotiating stream
+15:41:17.443: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.443: [pipewire] Renegotiating stream
+15:41:17.461: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.461: [pipewire] Renegotiating stream
+15:41:17.476: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.477: [pipewire] Renegotiating stream
+15:41:17.494: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.494: [pipewire] Renegotiating stream
+15:41:17.510: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.510: [pipewire] Renegotiating stream
+15:41:17.527: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.527: [pipewire] Renegotiating stream
+15:41:17.543: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.543: [pipewire] Renegotiating stream
+15:41:17.560: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.561: [pipewire] Renegotiating stream
+15:41:17.576: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.577: [pipewire] Renegotiating stream
+15:41:17.594: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.594: [pipewire] Renegotiating stream
+15:41:17.610: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.610: [pipewire] Renegotiating stream
+15:41:17.627: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.627: [pipewire] Renegotiating stream
+15:41:17.643: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.643: [pipewire] Renegotiating stream
+15:41:17.661: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.661: [pipewire] Renegotiating stream
+15:41:17.677: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.677: [pipewire] Renegotiating stream
+15:41:17.694: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.694: [pipewire] Renegotiating stream
+15:41:17.710: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.710: [pipewire] Renegotiating stream
+15:41:17.727: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.727: [pipewire] Renegotiating stream
+15:41:17.743: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.743: [pipewire] Renegotiating stream
+15:41:17.760: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.760: [pipewire] Renegotiating stream
+15:41:17.776: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.776: [pipewire] Renegotiating stream
+15:41:17.793: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.794: [pipewire] Renegotiating stream
+15:41:17.810: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.810: [pipewire] Renegotiating stream
+15:41:17.827: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.827: [pipewire] Renegotiating stream
+15:41:17.843: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.843: [pipewire] Renegotiating stream
+15:41:17.860: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.860: [pipewire] Renegotiating stream
+15:41:17.876: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.876: [pipewire] Renegotiating stream
+15:41:17.893: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.893: [pipewire] Renegotiating stream
+15:41:17.910: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.910: [pipewire] Renegotiating stream
+15:41:17.927: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.927: [pipewire] Renegotiating stream
+15:41:17.943: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.943: [pipewire] Renegotiating stream
+15:41:17.960: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.960: [pipewire] Renegotiating stream
+15:41:17.976: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.976: [pipewire] Renegotiating stream
+15:41:17.993: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:17.994: [pipewire] Renegotiating stream
+15:41:18.009: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.009: [pipewire] Renegotiating stream
+15:41:18.027: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.027: [pipewire] Renegotiating stream
+15:41:18.043: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.043: [pipewire] Renegotiating stream
+15:41:18.061: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.061: [pipewire] Renegotiating stream
+15:41:18.076: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.076: [pipewire] Renegotiating stream
+15:41:18.093: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.093: [pipewire] Renegotiating stream
+15:41:18.109: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.109: [pipewire] Renegotiating stream
+15:41:18.127: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.127: [pipewire] Renegotiating stream
+15:41:18.143: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.143: [pipewire] Renegotiating stream
+15:41:18.160: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.160: [pipewire] Renegotiating stream
+15:41:18.176: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.176: [pipewire] Renegotiating stream
+15:41:18.194: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.194: [pipewire] Renegotiating stream
+15:41:18.209: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.209: [pipewire] Renegotiating stream
+15:41:18.227: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.227: [pipewire] Renegotiating stream
+15:41:18.243: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.243: [pipewire] Renegotiating stream
+15:41:18.260: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.260: [pipewire] Renegotiating stream
+15:41:18.276: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.276: [pipewire] Renegotiating stream
+15:41:18.293: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.293: [pipewire] Renegotiating stream
+15:41:18.309: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.309: [pipewire] Renegotiating stream
+15:41:18.327: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.327: [pipewire] Renegotiating stream
+15:41:18.343: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.343: [pipewire] Renegotiating stream
+15:41:18.360: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.360: [pipewire] Renegotiating stream
+15:41:18.376: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.376: [pipewire] Renegotiating stream
+15:41:18.393: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.393: [pipewire] Renegotiating stream
+15:41:18.409: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.409: [pipewire] Renegotiating stream
+15:41:18.427: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.427: [pipewire] Renegotiating stream
+15:41:18.443: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.443: [pipewire] Renegotiating stream
+15:41:18.460: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.460: [pipewire] Renegotiating stream
+15:41:18.476: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.476: [pipewire] Renegotiating stream
+15:41:18.494: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.494: [pipewire] Renegotiating stream
+15:41:18.509: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.509: [pipewire] Renegotiating stream
+15:41:18.527: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.527: [pipewire] Renegotiating stream
+15:41:18.543: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.543: [pipewire] Renegotiating stream
+15:41:18.560: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.560: [pipewire] Renegotiating stream
+15:41:18.576: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.576: [pipewire] Renegotiating stream
+15:41:18.593: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.593: [pipewire] Renegotiating stream
+15:41:18.609: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.609: [pipewire] Renegotiating stream
+15:41:18.627: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.627: [pipewire] Renegotiating stream
+15:41:18.643: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.643: [pipewire] Renegotiating stream
+15:41:18.660: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.660: [pipewire] Renegotiating stream
+15:41:18.676: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.676: [pipewire] Renegotiating stream
+15:41:18.693: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.693: [pipewire] Renegotiating stream
+15:41:18.709: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.709: [pipewire] Renegotiating stream
+15:41:18.727: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.727: [pipewire] Renegotiating stream
+15:41:18.742: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.742: [pipewire] Renegotiating stream
+15:41:18.760: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.760: [pipewire] Renegotiating stream
+15:41:18.776: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.776: [pipewire] Renegotiating stream
+15:41:18.793: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.794: [pipewire] Renegotiating stream
+15:41:18.809: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.809: [pipewire] Renegotiating stream
+15:41:18.826: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.826: [pipewire] Renegotiating stream
+15:41:18.842: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.842: [pipewire] Renegotiating stream
+15:41:18.860: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.860: [pipewire] Renegotiating stream
+15:41:18.876: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.876: [pipewire] Renegotiating stream
+15:41:18.893: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.893: [pipewire] Renegotiating stream
+15:41:18.909: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.909: [pipewire] Renegotiating stream
+15:41:18.926: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.926: [pipewire] Renegotiating stream
+15:41:18.942: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.942: [pipewire] Renegotiating stream
+15:41:18.960: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.960: [pipewire] Renegotiating stream
+15:41:18.976: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.976: [pipewire] Renegotiating stream
+15:41:18.993: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:18.993: [pipewire] Renegotiating stream
+15:41:19.009: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.009: [pipewire] Renegotiating stream
+15:41:19.026: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.026: [pipewire] Renegotiating stream
+15:41:19.042: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.042: [pipewire] Renegotiating stream
+15:41:19.060: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.060: [pipewire] Renegotiating stream
+15:41:19.076: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.076: [pipewire] Renegotiating stream
+15:41:19.093: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.094: [pipewire] Renegotiating stream
+15:41:19.109: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.109: [pipewire] Renegotiating stream
+15:41:19.126: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.126: [pipewire] Renegotiating stream
+15:41:19.142: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.143: [pipewire] Renegotiating stream
+15:41:19.160: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.160: [pipewire] Renegotiating stream
+15:41:19.176: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.176: [pipewire] Renegotiating stream
+15:41:19.193: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.193: [pipewire] Renegotiating stream
+15:41:19.209: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.209: [pipewire] Renegotiating stream
+15:41:19.226: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.226: [pipewire] Renegotiating stream
+15:41:19.242: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.242: [pipewire] Renegotiating stream
+15:41:19.259: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.260: [pipewire] Renegotiating stream
+15:41:19.275: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.276: [pipewire] Renegotiating stream
+15:41:19.293: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.293: [pipewire] Renegotiating stream
+15:41:19.309: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.309: [pipewire] Renegotiating stream
+15:41:19.326: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.326: [pipewire] Renegotiating stream
+15:41:19.342: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.342: [pipewire] Renegotiating stream
+15:41:19.360: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.360: [pipewire] Renegotiating stream
+15:41:19.375: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.376: [pipewire] Renegotiating stream
+15:41:19.393: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.393: [pipewire] Renegotiating stream
+15:41:19.409: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.409: [pipewire] Renegotiating stream
+15:41:19.426: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.426: [pipewire] Renegotiating stream
+15:41:19.442: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.442: [pipewire] Renegotiating stream
+15:41:19.459: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.459: [pipewire] Renegotiating stream
+15:41:19.475: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.476: [pipewire] Renegotiating stream
+15:41:19.493: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.493: [pipewire] Renegotiating stream
+15:41:19.509: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.509: [pipewire] Renegotiating stream
+15:41:19.526: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.526: [pipewire] Renegotiating stream
+15:41:19.542: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.542: [pipewire] Renegotiating stream
+15:41:19.559: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.559: [pipewire] Renegotiating stream
+15:41:19.575: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.575: [pipewire] Renegotiating stream
+15:41:19.593: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.593: [pipewire] Renegotiating stream
+15:41:19.609: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.609: [pipewire] Renegotiating stream
+15:41:19.626: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.626: [pipewire] Renegotiating stream
+15:41:19.642: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.642: [pipewire] Renegotiating stream
+15:41:19.659: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.659: [pipewire] Renegotiating stream
+15:41:19.675: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.676: [pipewire] Renegotiating stream
+15:41:19.692: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.693: [pipewire] Renegotiating stream
+15:41:19.709: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.709: [pipewire] Renegotiating stream
+15:41:19.726: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.726: [pipewire] Renegotiating stream
+15:41:19.742: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.742: [pipewire] Renegotiating stream
+15:41:19.759: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.759: [pipewire] Renegotiating stream
+15:41:19.775: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.775: [pipewire] Renegotiating stream
+15:41:19.793: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.793: [pipewire] Renegotiating stream
+15:41:19.809: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.809: [pipewire] Renegotiating stream
+15:41:19.826: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.826: [pipewire] Renegotiating stream
+15:41:19.842: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.842: [pipewire] Renegotiating stream
+15:41:19.859: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.859: [pipewire] Renegotiating stream
+15:41:19.875: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.875: [pipewire] Renegotiating stream
+15:41:19.893: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.893: [pipewire] Renegotiating stream
+15:41:19.909: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.909: [pipewire] Renegotiating stream
+15:41:19.926: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.926: [pipewire] Renegotiating stream
+15:41:19.942: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.942: [pipewire] Renegotiating stream
+15:41:19.959: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.959: [pipewire] Renegotiating stream
+15:41:19.975: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.975: [pipewire] Renegotiating stream
+15:41:19.992: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:19.993: [pipewire] Renegotiating stream
+15:41:20.026: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.026: [pipewire] Renegotiating stream
+15:41:20.042: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.042: [pipewire] Renegotiating stream
+15:41:20.059: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.059: [pipewire] Renegotiating stream
+15:41:20.075: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.075: [pipewire] Renegotiating stream
+15:41:20.092: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.093: [pipewire] Renegotiating stream
+15:41:20.109: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.109: [pipewire] Renegotiating stream
+15:41:20.126: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.126: [pipewire] Renegotiating stream
+15:41:20.142: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.142: [pipewire] Renegotiating stream
+15:41:20.159: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.159: [pipewire] Renegotiating stream
+15:41:20.175: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.175: [pipewire] Renegotiating stream
+15:41:20.193: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.193: [pipewire] Renegotiating stream
+15:41:20.209: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.209: [pipewire] Renegotiating stream
+15:41:20.226: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.226: [pipewire] Renegotiating stream
+15:41:20.242: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.242: [pipewire] Renegotiating stream
+15:41:20.259: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.259: [pipewire] Renegotiating stream
+15:41:20.275: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.275: [pipewire] Renegotiating stream
+15:41:20.293: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.293: [pipewire] Renegotiating stream
+15:41:20.308: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.309: [pipewire] Renegotiating stream
+15:41:20.326: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.326: [pipewire] Renegotiating stream
+15:41:20.342: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.342: [pipewire] Renegotiating stream
+15:41:20.359: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.359: [pipewire] Renegotiating stream
+15:41:20.375: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.375: [pipewire] Renegotiating stream
+15:41:20.392: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.392: [pipewire] Renegotiating stream
+15:41:20.408: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.408: [pipewire] Renegotiating stream
+15:41:20.426: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.426: [pipewire] Renegotiating stream
+15:41:20.442: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.442: [pipewire] Renegotiating stream
+15:41:20.459: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.459: [pipewire] Renegotiating stream
+15:41:20.475: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.475: [pipewire] Renegotiating stream
+15:41:20.492: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.492: [pipewire] Renegotiating stream
+15:41:20.509: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.509: [pipewire] Renegotiating stream
+15:41:20.526: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.526: [pipewire] Renegotiating stream
+15:41:20.542: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.542: [pipewire] Renegotiating stream
+15:41:20.559: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.559: [pipewire] Renegotiating stream
+15:41:20.575: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.575: [pipewire] Renegotiating stream
+15:41:20.592: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.592: [pipewire] Renegotiating stream
+15:41:20.608: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.608: [pipewire] Renegotiating stream
+15:41:20.626: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.626: [pipewire] Renegotiating stream
+15:41:20.642: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.642: [pipewire] Renegotiating stream
+15:41:20.659: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.659: [pipewire] Renegotiating stream
+15:41:20.675: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.675: [pipewire] Renegotiating stream
+15:41:20.692: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.692: [pipewire] Renegotiating stream
+15:41:20.708: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.708: [pipewire] Renegotiating stream
+15:41:20.726: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.726: [pipewire] Renegotiating stream
+15:41:20.742: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.742: [pipewire] Renegotiating stream
+15:41:20.759: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.759: [pipewire] Renegotiating stream
+15:41:20.775: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.775: [pipewire] Renegotiating stream
+15:41:20.792: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.792: [pipewire] Renegotiating stream
+15:41:20.808: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.808: [pipewire] Renegotiating stream
+15:41:20.825: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.826: [pipewire] Renegotiating stream
+15:41:20.842: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.842: [pipewire] Renegotiating stream
+15:41:20.859: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.859: [pipewire] Renegotiating stream
+15:41:20.875: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.875: [pipewire] Renegotiating stream
+15:41:20.892: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.892: [pipewire] Renegotiating stream
+15:41:20.908: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.908: [pipewire] Renegotiating stream
+15:41:20.925: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.925: [pipewire] Renegotiating stream
+15:41:20.942: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.942: [pipewire] Renegotiating stream
+15:41:20.959: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.959: [pipewire] Renegotiating stream
+15:41:20.975: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.975: [pipewire] Renegotiating stream
+15:41:20.992: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:20.992: [pipewire] Renegotiating stream
+15:41:21.008: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.008: [pipewire] Renegotiating stream
+15:41:21.026: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.026: [pipewire] Renegotiating stream
+15:41:21.042: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.042: [pipewire] Renegotiating stream
+15:41:21.059: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.059: [pipewire] Renegotiating stream
+15:41:21.075: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.075: [pipewire] Renegotiating stream
+15:41:21.092: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.092: [pipewire] Renegotiating stream
+15:41:21.108: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.108: [pipewire] Renegotiating stream
+15:41:21.126: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.126: [pipewire] Renegotiating stream
+15:41:21.142: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.142: [pipewire] Renegotiating stream
+15:41:21.159: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.159: [pipewire] Renegotiating stream
+15:41:21.175: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.175: [pipewire] Renegotiating stream
+15:41:21.192: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.192: [pipewire] Renegotiating stream
+15:41:21.208: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.208: [pipewire] Renegotiating stream
+15:41:21.226: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.226: [pipewire] Renegotiating stream
+15:41:21.242: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.242: [pipewire] Renegotiating stream
+15:41:21.259: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.259: [pipewire] Renegotiating stream
+15:41:21.275: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.275: [pipewire] Renegotiating stream
+15:41:21.292: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.292: [pipewire] Renegotiating stream
+15:41:21.308: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.308: [pipewire] Renegotiating stream
+15:41:21.326: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.326: [pipewire] Renegotiating stream
+15:41:21.342: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.342: [pipewire] Renegotiating stream
+15:41:21.359: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.359: [pipewire] Renegotiating stream
+15:41:21.375: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.375: [pipewire] Renegotiating stream
+15:41:21.392: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.392: [pipewire] Renegotiating stream
+15:41:21.408: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.408: [pipewire] Renegotiating stream
+15:41:21.426: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.426: [pipewire] Renegotiating stream
+15:41:21.441: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.442: [pipewire] Renegotiating stream
+15:41:21.459: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.459: [pipewire] Renegotiating stream
+15:41:21.475: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.475: [pipewire] Renegotiating stream
+15:41:21.492: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.492: [pipewire] Renegotiating stream
+15:41:21.508: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.508: [pipewire] Renegotiating stream
+15:41:21.526: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.526: [pipewire] Renegotiating stream
+15:41:21.542: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.542: [pipewire] Renegotiating stream
+15:41:21.559: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.559: [pipewire] Renegotiating stream
+15:41:21.575: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.575: [pipewire] Renegotiating stream
+15:41:21.592: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.592: [pipewire] Renegotiating stream
+15:41:21.608: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.608: [pipewire] Renegotiating stream
+15:41:21.625: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.626: [pipewire] Renegotiating stream
+15:41:21.641: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.641: [pipewire] Renegotiating stream
+15:41:21.659: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.659: [pipewire] Renegotiating stream
+15:41:21.675: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.675: [pipewire] Renegotiating stream
+15:41:21.692: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.692: [pipewire] Renegotiating stream
+15:41:21.708: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.708: [pipewire] Renegotiating stream
+15:41:21.725: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.725: [pipewire] Renegotiating stream
+15:41:21.741: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.741: [pipewire] Renegotiating stream
+15:41:21.759: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.759: [pipewire] Renegotiating stream
+15:41:21.775: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.775: [pipewire] Renegotiating stream
+15:41:21.792: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.792: [pipewire] Renegotiating stream
+15:41:21.808: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.808: [pipewire] Renegotiating stream
+15:41:21.825: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.825: [pipewire] Renegotiating stream
+15:41:21.841: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.841: [pipewire] Renegotiating stream
+15:41:21.859: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.859: [pipewire] Renegotiating stream
+15:41:21.875: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.875: [pipewire] Renegotiating stream
+15:41:21.892: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.892: [pipewire] Renegotiating stream
+15:41:21.908: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.908: [pipewire] Renegotiating stream
+15:41:21.925: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.925: [pipewire] Renegotiating stream
+15:41:21.941: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.942: [pipewire] Renegotiating stream
+15:41:21.959: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.959: [pipewire] Renegotiating stream
+15:41:21.975: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.975: [pipewire] Renegotiating stream
+15:41:21.992: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:21.992: [pipewire] Renegotiating stream
+15:41:22.008: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.008: [pipewire] Renegotiating stream
+15:41:22.026: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.026: [pipewire] Renegotiating stream
+15:41:22.041: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.041: [pipewire] Renegotiating stream
+15:41:22.058: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.059: [pipewire] Renegotiating stream
+15:41:22.074: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.075: [pipewire] Renegotiating stream
+15:41:22.092: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.092: [pipewire] Renegotiating stream
+15:41:22.108: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.108: [pipewire] Renegotiating stream
+15:41:22.125: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.125: [pipewire] Renegotiating stream
+15:41:22.141: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.141: [pipewire] Renegotiating stream
+15:41:22.159: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.159: [pipewire] Renegotiating stream
+15:41:22.192: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.192: [pipewire] Renegotiating stream
+15:41:22.208: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.208: [pipewire] Renegotiating stream
+15:41:22.225: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.225: [pipewire] Renegotiating stream
+15:41:22.241: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.241: [pipewire] Renegotiating stream
+15:41:22.258: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.258: [pipewire] Renegotiating stream
+15:41:22.274: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.275: [pipewire] Renegotiating stream
+15:41:22.292: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.292: [pipewire] Renegotiating stream
+15:41:22.308: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.308: [pipewire] Renegotiating stream
+15:41:22.325: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.325: [pipewire] Renegotiating stream
+15:41:22.341: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.341: [pipewire] Renegotiating stream
+15:41:22.358: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.358: [pipewire] Renegotiating stream
+15:41:22.374: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.374: [pipewire] Renegotiating stream
+15:41:22.392: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.392: [pipewire] Renegotiating stream
+15:41:22.408: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.408: [pipewire] Renegotiating stream
+15:41:22.425: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.425: [pipewire] Renegotiating stream
+15:41:22.441: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.441: [pipewire] Renegotiating stream
+15:41:22.458: Cannot create EGLImage: EGL failed to allocate resources for the requested operation.
+15:41:22.458: [pipewire] Renegotiating stream
+15:41:22.458: User Removed source 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source) from scene 'Scene'
+15:41:22.459: [pipewire] Stream 0x55fb313a75d0 state: "paused" (error: none)
+15:41:22.459: [pipewire] Stream 0x55fb313a75d0 state: "unconnected" (error: none)
+15:41:27.426: User added source 'Wayland output(scpy)' (wlrobs-scpy) to scene 'Scene'
+15:41:33.834: User Removed source 'Wayland output(dmabuf)' (wlrobs-dmabuf) from scene 'Scene'
+15:41:38.035: User Removed source 'Wayland output(scpy)' (wlrobs-scpy) from scene 'Scene'
+15:41:51.464: User added source 'Wayland output(dmabuf)' (wlrobs-dmabuf) to scene 'Scene'
+15:42:42.481: 1 views remain at shutdown
+15:42:42.481: ---------------------------------
+15:42:42.481: video settings reset:
+15:42:42.481: 	base resolution:   1920x1080
+15:42:42.481: 	output resolution: 1920x1080
+15:42:42.481: 	downscale filter:  Bicubic
+15:42:42.481: 	fps:               60/1
+15:42:42.481: 	format:            NV12
+15:42:42.481: 	YUV mode:          Rec. 709/Partial
+15:42:42.481: NV12 texture support not available
+15:42:42.481: P010 texture support not available
+15:42:42.482: Settings changed (video)
+15:42:42.482: ------------------------------------------------
+15:43:16.620: Settings changed (outputs)
+15:43:16.620: ------------------------------------------------
+15:43:18.680: ---------------------------------
+15:43:18.680: [x264 encoder: 'advanced_video_stream'] preset: fast
+15:43:18.680: [x264 encoder: 'advanced_video_stream'] settings:
+15:43:18.680: 	rate_control: CBR
+15:43:18.680: 	bitrate:      2500
+15:43:18.680: 	buffer size:  2500
+15:43:18.680: 	crf:          23
+15:43:18.680: 	fps_num:      60
+15:43:18.680: 	fps_den:      1
+15:43:18.680: 	width:        1920
+15:43:18.680: 	height:       1080
+15:43:18.680: 	keyint:       250
+15:43:18.680: 
+15:43:18.691: libfdk_aac encoder created
+15:43:18.691: libfdk_aac bitrate: 160, channels: 2
+15:43:18.694: ==== Recording Start ===============================================
+15:43:18.694: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/k/2023-01-22 15-43-18.mkv'...
+15:43:18.697: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+15:43:45.728: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/k/2023-01-22 15-43-18.mkv' stopped
+15:43:45.728: Output 'adv_file_output': stopping
+15:43:45.728: Output 'adv_file_output': Total frames output: 1248
+15:43:45.728: Output 'adv_file_output': Total drawn frames: 1590 (1622 attempted)
+15:43:45.728: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 32 (2.0%)
+15:43:45.729: ==== Recording Stop ================================================
+15:43:46.844: Video stopped, number of skipped frames due to encoding lag: 1195/1357 (88.1%)
+15:43:46.912: libfdk_aac encoder destroyed
+15:43:48.120: ==== Shutting down ==================================================
+15:43:48.124: pulse-input: Stopped recording from 'alsa_output.pci-0000_03_00.6.analog-stereo.monitor'
+15:43:48.124: pulse-input: Got 6192 packets with 7430400 frames
+15:43:48.124: pulse-input: Stopped recording from 'alsa_input.pci-0000_03_00.6.analog-stereo'
+15:43:48.124: pulse-input: Got 6192 packets with 7430400 frames
+15:43:48.134: All scene data cleared
+15:43:48.134: ------------------------------------------------
+15:43:48.179: Freeing OBS context data
+15:43:48.179: 1 views remain at shutdown
+15:43:48.215: == Profiler Results =============================
+15:43:48.215: run_program_init: 752.666 ms
+15:43:48.215:  ┣OBSApp::AppInit: 5.027 ms
+15:43:48.215:  ┃ ┗OBSApp::InitLocale: 1.002 ms
+15:43:48.215:  ┗OBSApp::OBSInit: 712.249 ms
+15:43:48.215:    ┣obs_startup: 2.751 ms
+15:43:48.215:    ┗OBSBasic::OBSInit: 469.534 ms
+15:43:48.215:      ┣OBSBasic::InitBasicConfig: 0.078 ms
+15:43:48.215:      ┣OBSBasic::ResetAudio: 0.132 ms
+15:43:48.215:      ┣OBSBasic::ResetVideo: 101.31 ms
+15:43:48.215:      ┣OBSBasic::InitOBSCallbacks: 0.008 ms
+15:43:48.215:      ┣OBSBasic::InitHotkeys: 0.067 ms
+15:43:48.215:      ┣obs_load_all_modules2: 221.296 ms
+15:43:48.215:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+15:43:48.215:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+15:43:48.215:      ┃ ┣obs_init_module(decklink.so): 0.128 ms
+15:43:48.216:      ┃ ┣obs_init_module(image-source.so): 0.022 ms
+15:43:48.216:      ┃ ┣obs_init_module(linux-alsa.so): 0.009 ms
+15:43:48.216:      ┃ ┣obs_init_module(linux-capture.so): 0.001 ms
+15:43:48.216:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+15:43:48.216:      ┃ ┣obs_init_module(linux-pipewire.so): 1.279 ms
+15:43:48.216:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.006 ms
+15:43:48.216:      ┃ ┣obs_init_module(linux-v4l2.so): 5.178 ms
+15:43:48.216:      ┃ ┣obs_init_module(obs-ffmpeg.so): 3.961 ms
+15:43:48.216:      ┃ ┃ ┗nvenc_check: 0.969 ms
+15:43:48.216:      ┃ ┣obs_init_module(obs-filters.so): 0.039 ms
+15:43:48.216:      ┃ ┣obs_init_module(obs-libfdk.so): 0.004 ms
+15:43:48.216:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+15:43:48.216:      ┃ ┣obs_init_module(obs-transitions.so): 0.012 ms
+15:43:48.216:      ┃ ┣obs_init_module(obs-vst.so): 0.006 ms
+15:43:48.216:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+15:43:48.216:      ┃ ┣obs_init_module(rtmp-services.so): 1.226 ms
+15:43:48.216:      ┃ ┣obs_init_module(text-freetype2.so): 0.017 ms
+15:43:48.216:      ┃ ┗obs_init_module(libwlrobs.so): 0.015 ms
+15:43:48.216:      ┣OBSBasic::ResetOutputs: 0.15 ms
+15:43:48.216:      ┣OBSBasic::CreateHotkeys: 0.05 ms
+15:43:48.216:      ┣OBSBasic::InitService: 2.106 ms
+15:43:48.216:      ┣OBSBasic::InitPrimitives: 0.188 ms
+15:43:48.216:      ┗OBSBasic::Load: 77.472 ms
+15:43:48.216: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.017 ms, 99th percentile=0.001 ms, 100% below 25 ms
+15:43:48.216: audio_thread(Audio): min=0.016 ms, median=0.596 ms, max=56.777 ms, 99th percentile=27.102 ms
+15:43:48.216:  ┗receive_audio: min=0.002 ms, median=0.598 ms, max=7.899 ms, 99th percentile=1.317 ms, 0.181781 calls per parent call
+15:43:48.216:    ┣buffer_audio: min=0.001 ms, median=0.001 ms, max=0.01 ms, 99th percentile=0.003 ms
+15:43:48.216:    ┗do_encode: min=0.217 ms, median=0.594 ms, max=7.894 ms, 99th percentile=1.311 ms
+15:43:48.216:      ┣encode(Track1): min=0.21 ms, median=0.572 ms, max=4.324 ms, 99th percentile=1.21 ms
+15:43:48.216:      ┗send_packet: min=0.001 ms, median=0.012 ms, max=7.211 ms, 99th percentile=0.069 ms
+15:43:48.216: obs_graphics_thread(33.3333 ms): min=0.176 ms, median=10.259 ms, max=83.782 ms, 99th percentile=50.372 ms, 95.3567% below 33.333 ms
+15:43:48.216:  ┣tick_sources: min=0 ms, median=0.009 ms, max=49.14 ms, 99th percentile=0.018 ms
+15:43:48.216:  ┣output_frame: min=0.111 ms, median=10.008 ms, max=50.582 ms, 99th percentile=48.082 ms
+15:43:48.216:  ┃ ┗gs_context(video->graphics): min=0.111 ms, median=10.008 ms, max=50.582 ms, 99th percentile=48.082 ms
+15:43:48.216:  ┃   ┣render_video: min=0.029 ms, median=9.93 ms, max=50.481 ms, 99th percentile=47.819 ms
+15:43:48.216:  ┃   ┃ ┗render_main_texture: min=0.024 ms, median=9.924 ms, max=50.477 ms, 99th percentile=47.811 ms
+15:43:48.216:  ┃   ┗gs_flush: min=0.005 ms, median=0.068 ms, max=9.248 ms, 99th percentile=0.218 ms
+15:43:48.216:  ┗render_displays: min=0.004 ms, median=0.246 ms, max=34.554 ms, 99th percentile=17.086 ms
+15:43:48.216: obs_graphics_thread(16.6667 ms): min=0.177 ms, median=12.502 ms, max=45.887 ms, 99th percentile=23.6 ms, 89.5881% below 16.667 ms
+15:43:48.216:  ┣tick_sources: min=0 ms, median=0.008 ms, max=5.157 ms, 99th percentile=0.019 ms
+15:43:48.216:  ┣output_frame: min=0.135 ms, median=12.084 ms, max=45.138 ms, 99th percentile=22.47 ms
+15:43:48.216:  ┃ ┣gs_context(video->graphics): min=0.134 ms, median=12.047 ms, max=45.134 ms, 99th percentile=22.11 ms
+15:43:48.216:  ┃ ┃ ┣render_video: min=0.03 ms, median=11.877 ms, max=39.723 ms, 99th percentile=20.492 ms
+15:43:48.216:  ┃ ┃ ┃ ┣render_main_texture: min=0.023 ms, median=11.856 ms, max=39.603 ms, 99th percentile=19.785 ms
+15:43:48.216:  ┃ ┃ ┃ ┣render_convert_texture: min=0.044 ms, median=0.066 ms, max=8.087 ms, 99th percentile=0.306 ms, 0.406754 calls per parent call
+15:43:48.216:  ┃ ┃ ┃ ┗stage_output_texture: min=0.016 ms, median=0.024 ms, max=1.487 ms, 99th percentile=0.072 ms, 0.406754 calls per parent call
+15:43:48.216:  ┃ ┃ ┣gs_flush: min=0.041 ms, median=0.066 ms, max=12.855 ms, 99th percentile=2.924 ms
+15:43:48.216:  ┃ ┃ ┗download_frame: min=0 ms, median=0.057 ms, max=6.818 ms, 99th percentile=1.181 ms, 0.406754 calls per parent call
+15:43:48.216:  ┃ ┗output_video_data: min=0 ms, median=0 ms, max=7.358 ms, 99th percentile=1.127 ms, 0.406498 calls per parent call
+15:43:48.216:  ┗render_displays: min=0.005 ms, median=0.258 ms, max=12.745 ms, 99th percentile=3.794 ms
+15:43:48.216: OBSBasic::ResetVideo: 30.304 ms
+15:43:48.216: OBSBasic::ResetOutputs: 0.14 ms
+15:43:48.216: video_thread(video): min=0 ms, median=20.126 ms, max=2579.64 ms, 99th percentile=1760.4 ms
+15:43:48.216:  ┗receive_video: min=1.629 ms, median=9.933 ms, max=179.69 ms, 99th percentile=101.675 ms, 8.18072 calls per parent call
+15:43:48.216:    ┗do_encode: min=1.629 ms, median=9.933 ms, max=179.689 ms, 99th percentile=101.675 ms
+15:43:48.216:      ┣encode(advanced_video_stream): min=1.621 ms, median=9.757 ms, max=179.671 ms, 99th percentile=101.662 ms
+15:43:48.216:      ┗send_packet: min=0.002 ms, median=0.018 ms, max=11.738 ms, 99th percentile=0.476 ms, 0.920471 calls per parent call
+15:43:48.216: =================================================
+15:43:48.216: == Profiler Time Between Calls ==================
+15:43:48.216: obs_hotkey_thread(25 ms): min=25.016 ms, median=25.063 ms, max=32.59 ms, 98.8543% within ±2% of 25 ms (0% lower, 1.14572% higher)
+15:43:48.216: obs_graphics_thread(33.3333 ms): min=16.368 ms, median=33.333 ms, max=83.789 ms, 97.3565% within ±2% of 33.333 ms (0.641994% lower, 2.00151% higher)
+15:43:48.216: obs_graphics_thread(16.6667 ms): min=8.947 ms, median=16.667 ms, max=45.903 ms, 85.3122% within ±2% of 16.667 ms (6.78096% lower, 7.90686% higher)
+15:43:48.216: =================================================
+15:43:48.274: Number of memory leaks: 3
